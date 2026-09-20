@@ -1,4 +1,10 @@
-# Bautista — Web System Technologies Activities
+<div align="center">
+  <a href="https://github.com/kan08306/Bautista">
+    <img src="./tfa1_bautista/public/tfa1_bautista/assets/KBlogo.png" alt="KB Logo" width="130">
+  </a>
+
+  <h1>Bautista — Web System Technologies Activities</h1>
+</div>
 
 This repository contains CodeIgniter activities created by **Ken Bautista** for **IT0049 Web System Technologies**. Each activity is kept in its own standalone CodeIgniter project folder so it can be installed, tested, and deployed separately.
 
@@ -60,4 +66,3 @@ See the activity README for the exact environment configuration, local URLs, ava
 - Install dependencies and run `php spark serve` from the individual activity folder.
 - Each activity should have its own deployment that matches its submitted code.
 - Do not commit `.env`, runtime files in `writable/`, or installed dependency files when they are excluded by `.gitignore`.
-
