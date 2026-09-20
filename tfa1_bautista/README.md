@@ -1,198 +1,126 @@
-<a id="readme-top"></a>
+# TFA 1 — Basic POS Application
 
-<div align="center">
-  <a href="https://github.com/kan08306">
-<<<<<<< HEAD
-    <img src="./public/tfa1_bautista/assets/KBlogo.png" alt="KB Logo" width="130">
-=======
-    <img src="./app/Views/folder_template/assets/KBlogo.png" alt="KB Logo" width="130">
->>>>>>> 49a715a7bedbe24ecd133f1ffc8d0f7c54631773
-  </a>
+A standalone CodeIgniter 4 activity for **IT0049 Web System Technologies**. It demonstrates CodeIgniter routing, controllers, views, navigation, and passing temporary static-array data from controllers to views.
 
-  <h1>TFA 1 Basic POS Application</h1>
+**Repository:** [Bautista](https://github.com/kan08306/Bautista)  
+**Activity folder:** [`tfa1_bautista`](https://github.com/kan08306/Bautista/tree/main/tfa1_bautista)  
+**Hosted site:** [https://bautista-tc32.infinityfree.me/](https://bautista-tc32.infinityfree.me/)
 
-  <p>A standalone CodeIgniter 4 deployment for IT0049 Web System Technologies.</p>
+## Features
 
-  <p>
-    <a href="https://github.com/kan08306"><strong>View Repository</strong></a>
-  </p>
-</div>
+- Home, About, Customer Accounts, and User Accounts pages
+- Connected navigation with light and dark mode
+- Temporary customer and user records from PHP static arrays
+- No database, models, migrations, or SQL are required for this activity
 
----
+## Technology used
 
-## Table of Contents
+- PHP 8.2+
+- CodeIgniter 4
+- Composer
+- HTML, CSS, and JavaScript
+- XAMPP / Apache for local hosting
 
-- [Overview](#overview)
-- [Activities](#activities)
-- [Hosted Deployment](#hosted-deployment)
-- [Technology](#technology)
-- [Project Structure](#project-structure)
-- [Local Installation](#local-installation)
-- [Running the Project](#running-the-project)
-- [Development Guidelines](#development-guidelines)
-- [Resources](#resources)
-
-## Overview
-
-This repository is the standalone CodeIgniter 4 project for **TFA 1** in IT0049 Web System Technologies. It follows the Model-View-Controller (MVC) structure: routes select controllers, controllers prepare data, and views display the pages.
-
-The current activity uses static PHP arrays for customer and user records. No database, models, migrations, seeders, or SQL queries are used.
-
-## Activities
-
-| Activity | Description | Local Routes | Source Code |
-|---|---|---|---|
-| TFA 1 | Basic POS application with Home, Customer Accounts, and User Accounts pages | `/`, `/customers`, `/users` | [Activity files](./app/Views/tfa1_bautista/) |
-
-> Each future laboratory activity will use a separate CodeIgniter project folder and a separate hosted deployment, following the instructor's requirement.
-
-## Hosted Deployment
-
-**InfinityFree deployment URL:** [https://a1kab-tc32.rf.gd/](https://a1kab-tc32.rf.gd/)
-
-The InfinityFree domain has been created, but the current TFA 1 source code has not yet been uploaded there. The deployment must be uploaded and tested before this URL can be marked as verified or submitted as matching the repository.
-
-## Technology
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-## Project Structure
+## Project structure
 
 ```text
 tfa1_bautista/
 ├── app/
 │   ├── Config/
-│   │   └── Routes.php
+│   │   └── Routes.php              # URL-to-controller routes
 │   ├── Controllers/
-│   │   ├── Customers.php
-│   │   ├── Pages.php
-│   │   └── Users.php
+│   │   ├── Customers.php            # Customer data and page controller
+│   │   ├── Pages.php                # Home and About page controller
+│   │   └── Users.php                # User data and page controller
 │   └── Views/
-│       ├── tfa1_bautista/
-│       │   ├── assets/
-│       │   ├── css/
-│       │   ├── js/
-│       │   ├── pages/
-│       │   │   ├── customers.php
-│       │   │   └── users.php
-│       │   └── index.php
-│       └── folder_template/
+│       └── tfa1_bautista/
+│           ├── pages/
+│           │   ├── about.php
+│           │   ├── customers.php
+│           │   └── users.php
+│           └── index.php
 ├── public/
 │   └── tfa1_bautista/
-│       ├── assets/
-│       ├── css/
-│       └── js/
-├── composer.json
-├── composer.lock
+│       ├── assets/                  # Logo and image files
+│       ├── css/                     # Stylesheets
+│       └── js/                      # Browser JavaScript
+├── composer.json                    # PHP dependencies
+├── env                              # Environment-file template
 ├── README.md
-└── spark
+└── spark                            # CodeIgniter command-line tool
 ```
 
-### TFA 1 file locations
+## Run this activity locally
 
-| Content | Location |
-|---|---|
-| Routes | `app/Config/Routes.php` |
-| Home controller | `app/Controllers/Pages.php` |
-| Customer records and controller | `app/Controllers/Customers.php` |
-| User records and controller | `app/Controllers/Users.php` |
-| Home view | `app/Views/tfa1_bautista/index.php` |
-| Customer view | `app/Views/tfa1_bautista/pages/customers.php` |
-| User view | `app/Views/tfa1_bautista/pages/users.php` |
-| Browser-accessible CSS, JavaScript, and images | `public/tfa1_bautista/` |
-
-## Local Installation
-
-### Requirements
-
-- PHP 8.2 or newer
-- Composer 2
-- XAMPP or another PHP environment
-- Enabled PHP extensions: `curl`, `gd`, `intl`, `mbstring`, and `zip`
-
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
-git clone <your-tfa1-repository-url>
-cd tfa1_bautista
+git clone https://github.com/kan08306/Bautista.git
+cd Bautista/tfa1_bautista
 ```
 
-Install the Composer dependencies:
+### 2. Install PHP dependencies
 
 ```bash
 composer install
 ```
 
-Create the local environment file if it does not already exist:
+### 3. Create the local environment file
+
+In PowerShell:
 
 ```powershell
 Copy-Item env .env
 ```
 
-For an XAMPP installation where the project is inside `htdocs/Bautista/tfa1_bautista`, configure `.env` as follows:
+For an XAMPP installation located at `htdocs/Bautista/tfa1_bautista`, set this in `.env`:
 
 ```ini
 CI_ENVIRONMENT = development
 app.baseURL = 'http://localhost/Bautista/tfa1_bautista/public/'
 ```
 
-> Keep `.env`, credentials, logs, cache data, and the `vendor/` directory out of GitHub.
+### 4. Start the application
 
-## Running the Project
+Choose one local method:
 
-Start Apache in XAMPP, then open:
+**XAMPP Apache** — start Apache in the XAMPP Control Panel, then open:
 
 ```text
 http://localhost/Bautista/tfa1_bautista/public/
 ```
 
-Available routes:
+**CodeIgniter development server** — from the `tfa1_bautista` folder, run:
 
-| Page | URL |
-|---|---|
-| Home | `http://localhost/Bautista/tfa1_bautista/public/` |
-| Customer Accounts | `http://localhost/Bautista/tfa1_bautista/public/customers` |
-| User Accounts | `http://localhost/Bautista/tfa1_bautista/public/users` |
+```bash
+php spark serve
+```
 
-## Deploying to InfinityFree
+Then open the address shown in the terminal, usually:
 
-This project is deployed separately from future activities.
+```text
+http://localhost:8080/
+```
 
-Before uploading, update the production `.env` file with the InfinityFree domain as the base URL. Upload the complete CodeIgniter project to the InfinityFree hosting account, including the framework dependencies required by `vendor/`. Keep the `public` folder and its assets intact, and confirm that the server directs web requests to the CodeIgniter public entry point.
+## Available pages
 
-After deployment, test these pages on the hosted domain:
-
-| Page | Hosted URL |
-|---|---|
-| Home | `https://a1kab-tc32.rf.gd/` |
-| Customer Accounts | `https://a1kab-tc32.rf.gd/customers` |
-| User Accounts | `https://a1kab-tc32.rf.gd/users` |
-
-## Development Guidelines
-
-- Follow CodeIgniter's MVC structure.
-- Create view files under `app/Views/`.
-- Use controllers to prepare data and load views.
-- Register public page URLs in `app/Config/Routes.php`.
-- Store browser-accessible assets under `public/`.
-- Keep one central `public/index.php` file.
-- Test every route locally before committing and pushing changes.
-- Create a separate CodeIgniter project and hosted deployment for every future activity.
-
-## Resources
-
-| Resource | Purpose | Link |
+| Page | Apache URL path | Development-server URL path |
 |---|---|---|
-| Repository | TFA 1 source-code repository | Create or link your `tfa1_bautista` repository here |
-| CodeIgniter User Guide | Framework documentation | [CodeIgniter 4 User Guide](https://codeigniter.com/user_guide/) |
-| Composer | PHP dependency management | [Composer](https://getcomposer.org/) |
-| PHP Manual | PHP language documentation | [PHP Manual](https://www.php.net/manual/en/) |
+| Home | `/` | `/` |
+| About | `/about` | `/about` |
+| Customer Accounts | `/customers` | `/customers` |
+| User Accounts | `/users` | `/users` |
 
-<p align="right"><a href="#readme-top">Back to top</a></p>
+For Apache, append each path to `http://localhost/Bautista/tfa1_bautista/public`. For the CodeIgniter development server, append it to `http://localhost:8080`.
+
+## Requirements
+
+- PHP 8.2 or newer
+- Composer 2
+- XAMPP or another PHP-capable local server
+- PHP extensions: `curl`, `gd`, `intl`, `mbstring`, and `zip`
+
+## Deployment note
+
+TFA 1 is intended to be deployed as its own CodeIgniter project. Its hosted URL is [https://bautista-tc32.infinityfree.me/](https://bautista-tc32.infinityfree.me/). Before submitting, upload the matching project files, configure the production base URL, and test all four routes.
+
