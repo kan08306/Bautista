@@ -15,6 +15,7 @@
         </label>
         <nav class="menu-panel" aria-label="Main navigation">
             <a href="<?= base_url() ?>">Home</a>
+            <a href="<?= base_url('about') ?>">About</a>
             <a class="active" href="<?= base_url('customers') ?>" aria-current="page">Customers</a>
             <a href="<?= base_url('users') ?>">Users</a>
             <button class="theme-toggle" type="button" aria-label="Switch color theme">
