@@ -1,6 +1,12 @@
 # TFA 1 — Basic POS Application
 
+
 A standalone CodeIgniter 4 activity for **IT0049 Web System Technologies**. It demonstrates CodeIgniter routing, controllers, views, navigation, and passing temporary static-array data from controllers to views.
+=======
+<div align="center">
+  <a href="https://github.com/kan08306">
+    <img src="./public/tfa1_bautista/assets/KBlogo.png" alt="KB Logo" width="130">
+  </a>
 
 **Repository:** [Bautista](https://github.com/kan08306/Bautista)  
 **Activity folder:** [`tfa1_bautista`](https://github.com/kan08306/Bautista/tree/main/tfa1_bautista)  
