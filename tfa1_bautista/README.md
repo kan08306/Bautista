@@ -2,11 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/kan08306">
-<<<<<<< HEAD
     <img src="./public/tfa1_bautista/assets/KBlogo.png" alt="KB Logo" width="130">
-=======
-    <img src="./app/Views/folder_template/assets/KBlogo.png" alt="KB Logo" width="130">
->>>>>>> 49a715a7bedbe24ecd133f1ffc8d0f7c54631773
   </a>
 
   <h1>TFA 1 Basic POS Application</h1>
