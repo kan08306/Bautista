@@ -12,25 +12,23 @@ This repository contains CodeIgniter activities created by **Ken Bautista** for 
 
 ## Repository purpose
 
-The projects in this repository document practical work using PHP and CodeIgniter. They focus on core web-development concepts such as routing, controllers, views, reusable assets, forms, and application structure.
+The projects in this repository document practical work using PHP and CodeIgniter. They focus on core web-development concepts such as routing, controllers, views, Models, database integration, reusable assets, and application structure.
 
 ## Activities
 
 | Activity | Folder | Description | Documentation |
 |---|---|---|---|
 | TFA 1 | `tfa1_bautista` | Basic POS application with Home, About, Customers, and Users pages | [Open TFA 1 README](./tfa1_bautista/README.md) |
+| TFA 2 | `tfa2_bautista` | Database-backed POS account pages using MySQL, Models, and Query Builder | [Open TFA 2 README](./tfa2_bautista/README.md) |
 
 ## Repository structure
 
 ```text
 Bautista/
-├── tfa1_bautista/       # Standalone CodeIgniter project for TFA 1
-│   ├── app/             # Controllers, routes, views, and application code
-│   ├── public/          # Browser-accessible assets and entry point
-│   ├── vendor/          # Composer dependencies after installation
-│   ├── writable/        # Runtime logs, cache, and session data
-│   ├── composer.json    # PHP dependency definition
+├── tfa1_bautista/       # TFA 1 static-array POS application
 │   └── README.md        # TFA 1 setup, routes, and project details
+├── tfa2_bautista/       # TFA 2 database-backed POS application
+│   └── README.md        # TFA 2 database setup, routes, and project details
 └── README.md            # Repository overview and activity index
 ```
 
@@ -39,6 +37,7 @@ Bautista/
 - PHP
 - CodeIgniter 4
 - Composer
+- MySQL / MariaDB
 - HTML
 - CSS
 - JavaScript
@@ -51,11 +50,11 @@ Every activity folder is independent. To run an activity, clone this repository 
 
 ```bash
 git clone https://github.com/kan08306/Bautista.git
-cd Bautista/tfa1_bautista
+cd Bautista/tfa2_bautista
 composer install
 ```
 
-Copy the provided environment template, configure its local `app.baseURL`, then either start Apache through XAMPP or run `php spark serve` from that activity folder.
+The example above selects TFA 2. Use `tfa1_bautista` instead when running TFA 1. Copy the provided environment template, configure its local `app.baseURL` and any activity-specific database settings, then either start Apache through XAMPP or run `php spark serve` from that activity folder.
 
 See the activity README for the exact environment configuration, local URLs, available pages, and deployment notes.
 
