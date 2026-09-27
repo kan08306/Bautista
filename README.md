@@ -3,12 +3,15 @@
     <img src="./tfa1_bautista/public/tfa1_bautista/assets/KBlogo.png" alt="KB Logo" width="130">
   </a>
 
-  <h1>Bautista — Web System Technologies Activities</h1>
+  <h1>Ken Bautista</h1>
+  
+  <h6>IT0049_TC32</h6>
+
+  This repository contains CodeIgniter activities created by **Ken Bautista** for **IT0049 Web System Technologies**. Each activity is kept in its own standalone CodeIgniter project folder so it can be installed, tested, and deployed separately.
+
+  <a href="https://github.com/kan08306/Bautista"> Repository <a/>
+  
 </div>
-
-This repository contains CodeIgniter activities created by **Ken Bautista** for **IT0049 Web System Technologies**. Each activity is kept in its own standalone CodeIgniter project folder so it can be installed, tested, and deployed separately.
-
-**Repository:** [https://github.com/kan08306/Bautista](https://github.com/kan08306/Bautista)
 
 ## Repository purpose
 
@@ -20,6 +23,10 @@ The projects in this repository document practical work using PHP and CodeIgnite
 |---|---|---|---|
 | TFA 1 | `tfa1_bautista` | Basic POS application with Home, About, Customers, and Users pages | [Open TFA 1 README](./tfa1_bautista/README.md) |
 | TFA 2 | `tfa2_bautista` | Database-backed POS account pages using MySQL, Models, and Query Builder | [Open TFA 2 README](./tfa2_bautista/README.md) |
+=======
+| Activity | Folder | Description | Documentation | Hosted Website |
+|---|---|---|---|---|
+| TFA 1 | `tfa1_bautista` | Basic POS application with Home, About, Customers, and Users pages | [Open TFA 1 README](./tfa1_bautista/README.md) | http://bautista-tc32.infinityfree.me/ |
 
 ## Repository structure
 
