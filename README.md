@@ -22,7 +22,7 @@ The projects in this repository document practical work using PHP and CodeIgnite
 | Activity | Folder | Description | Documentation | Hosted Website |
 |---|---|---|---|---|
 | TFA 1 | `tfa1_bautista` | Basic POS application with Home, About, Customers, and Users pages | [Open TFA 1 README](./tfa1_bautista/README.md) | http://bautista-tc32.infinityfree.me/ |
-| TFA 2 | `tfa2_bautista` | Database-backed POS account pages using MySQL, Models, and Query Builder | [Open TFA 2 README](./tfa2_bautista/README.md) | Hosted Website: |
+| TFA 2 | `tfa2_bautista` | Database-backed POS account pages using MySQL, Models, and Query Builder | [Open TFA 2 README](./tfa2_bautista/README.md) | https://tfa2-bautista-tc32.infinityfree.me/ |
 
 ## Repository structure
 

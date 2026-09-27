@@ -11,7 +11,7 @@
 **Student:** Ken Bautista  
 **Repository:** [Bautista](https://github.com/kan08306/Bautista)  
 **Activity folder:** [`tfa2_bautista`](https://github.com/kan08306/Bautista/tree/main/tfa2_bautista)  
-**Hosted site:** Add the deployed TFA 2 URL before submission.
+**Hosted site:** [https://tfa2-bautista-tc32.infinityfree.me/](https://tfa2-bautista-tc32.infinityfree.me/)
 
 ## Features
 
