@@ -192,16 +192,6 @@ Both controllers retrieve records with `findAll()`. The account views use `forea
 - XAMPP or another PHP-capable local server
 - PHP extensions: `curl`, `intl`, `mbstring`, and `mysqli`
 
-## Submission checklist
-
-- [x] CodeIgniter Models for the `customers` and `users` tables
-- [x] Controllers retrieve records through the Models
-- [x] Customer and user records display in their corresponding views
-- [x] Database export included in `app/Database/tfa2_bautista.sql`
-- [x] At least five records included in each table
-- [ ] Project files committed and pushed to GitHub
-- [ ] Hosted application URL added above and tested
-
 ## Deployment note
 
 Deploy TFA 2 as its own CodeIgniter project. Import the included SQL export into the hosting database, update the production database credentials and `app.baseURL`, and verify the Home, Customer Accounts, and User Accounts routes before submission.
