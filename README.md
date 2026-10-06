@@ -4,13 +4,13 @@
   </a>
 
   <h1>Ken Bautista</h1>
-  
+
   <h6>IT0049_TC32</h6>
 
   This repository contains CodeIgniter activities created by **Ken Bautista** for **IT0049 Web System Technologies**. Each activity is kept in its own standalone CodeIgniter project folder so it can be installed, tested, and deployed separately.
 
-  <a href="https://github.com/kan08306/Bautista"> Repository <a/>
-  
+  <a href="https://github.com/kan08306/Bautista">Repository</a>
+
 </div>
 
 ## Repository purpose
@@ -23,6 +23,7 @@ The projects in this repository document practical work using PHP and CodeIgnite
 |---|---|---|---|---|
 | TFA 1 | `tfa1_bautista` | Basic POS application with Home, About, Customers, and Users pages | [Open TFA 1 README](./tfa1_bautista/README.md) | http://bautista-tc32.infinityfree.me/ |
 | TFA 2 | `tfa2_bautista` | Database-backed POS account pages using MySQL, Models, and Query Builder | [Open TFA 2 README](./tfa2_bautista/README.md) | https://tfa2-bautista-tc32.infinityfree.me/ |
+| TSA 1-2 | `tsa1-2_bautista` | Task management application with date-filtered tasks, a complete task list, and a database-backed profile | [Open TSA 1-2 README](./tsa1-2_bautista/README.md) | https://bautista-tsa-tc32.ct.ws/ |
 
 ## Repository structure
 
@@ -32,6 +33,8 @@ Bautista/
 │   └── README.md        # TFA 1 setup, routes, and project details
 ├── tfa2_bautista/       # TFA 2 database-backed POS application
 │   └── README.md        # TFA 2 database setup, routes, and project details
+├── tsa1-2_bautista/     # TSA 1-2 database-backed task application
+│   └── README.md        # TSA 1-2 setup, routes, and project details
 └── README.md            # Repository overview and activity index
 ```
 
@@ -57,13 +60,13 @@ cd Bautista/tfa2_bautista
 composer install
 ```
 
-The example above selects TFA 2. Use `tfa1_bautista` instead when running TFA 1. Copy the provided environment template, configure its local `app.baseURL` and any activity-specific database settings, then either start Apache through XAMPP or run `php spark serve` from that activity folder.
+The example above selects TFA 2. Use `tfa1_bautista` for TFA 1 or `tsa1-2_bautista` for TSA 1-2. Copy the provided environment template, configure its local `app.baseURL` and any activity-specific database settings, then either start Apache through XAMPP or run `php spark serve` from that activity folder.
 
 See the activity README for the exact environment configuration, local URLs, available pages, and deployment notes.
 
 ## Important conventions
 
-- Each `tfa#_bautista` folder is a separate CodeIgniter project.
+- Each activity folder is a separate CodeIgniter project.
 - Do not place one activity inside another activity's `app/Views` folder.
 - Install dependencies and run `php spark serve` from the individual activity folder.
 - Each activity should have its own deployment that matches its submitted code.
