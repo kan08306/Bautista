@@ -23,7 +23,7 @@ The projects in this repository document practical work using PHP and CodeIgnite
 |---|---|---|---|---|
 | TFA 1 | `tfa1_bautista` | Basic POS application with Home, About, Customers, and Users pages | [Open TFA 1 README](./tfa1_bautista/README.md) | http://bautista-tc32.infinityfree.me/ |
 | TFA 2 | `tfa2_bautista` | Database-backed POS account pages using MySQL, Models, and Query Builder | [Open TFA 2 README](./tfa2_bautista/README.md) | https://tfa2-bautista-tc32.infinityfree.me/ |
-| TSA 1-2 | `tsa1-2_bautista` | Task management application with date-filtered tasks, a complete task list, and a database-backed profile | [Open TSA 1-2 README](./tsa1-2_bautista/README.md) | https://bautista-tsa-tc32.ct.ws/ |
+| TSA 1 | `tsa1_bautista` | Task management application with date-filtered tasks, a complete task list, and a database-backed profile | [Open TSA 1 README](./tsa1_bautista/README.md) | https://bautista-tsa-tc32.ct.ws/ |
 
 ## Repository structure
 
@@ -33,8 +33,8 @@ Bautista/
 │   └── README.md        # TFA 1 setup, routes, and project details
 ├── tfa2_bautista/       # TFA 2 database-backed POS application
 │   └── README.md        # TFA 2 database setup, routes, and project details
-├── tsa1-2_bautista/     # TSA 1-2 database-backed task application
-│   └── README.md        # TSA 1-2 setup, routes, and project details
+├── tsa1_bautista/       # TSA 1 database-backed task application
+│   └── README.md        # TSA 1 setup, routes, and project details
 └── README.md            # Repository overview and activity index
 ```
 
@@ -60,7 +60,7 @@ cd Bautista/tfa2_bautista
 composer install
 ```
 
-The example above selects TFA 2. Use `tfa1_bautista` for TFA 1 or `tsa1-2_bautista` for TSA 1-2. Copy the provided environment template, configure its local `app.baseURL` and any activity-specific database settings, then either start Apache through XAMPP or run `php spark serve` from that activity folder.
+The example above selects TFA 2. Use `tfa1_bautista` for TFA 1 or `tsa1_bautista` for TSA 1. Copy the provided environment template, configure its local `app.baseURL` and any activity-specific database settings, then either start Apache through XAMPP or run `php spark serve` from that activity folder.
 
 See the activity README for the exact environment configuration, local URLs, available pages, and deployment notes.
 
