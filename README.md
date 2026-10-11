@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/kan08306/Bautista">
-    <img src="./tfa1_bautista/public/tfa1_bautista/assets/KBlogo.png" alt="KB Logo" width="130">
+    <img src="./tfa1_bautista/public/tfa1_bautista/assets/img/KBlogo.png" alt="KB Logo" width="130">
   </a>
 
   <h1>Ken Bautista</h1>
