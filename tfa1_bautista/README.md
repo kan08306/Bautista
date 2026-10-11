@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/kan08306/Bautista">
-    <img src="./public/tfa1_bautista/assets/KBlogo.png" alt="KB Logo" width="130">
+    <img src="./public/tfa1_bautista/assets/img/KBlogo.png" alt="KB Logo" width="130">
   </a>
 
   <h1>TFA 1 — Basic POS Application</h1>
@@ -40,16 +40,21 @@ tfa1_bautista/
 │   │   └── Users.php                # User data and page controller
 │   └── Views/
 │       └── tfa1_bautista/
-│           ├── pages/
-│           │   ├── about.php
-│           │   ├── customers.php
-│           │   └── users.php
+│           ├── assets/
+│           │   ├── css/
+│           │   ├── img/
+│           │   ├── js/
+│           │   └── pages/
+│           │       ├── about.php
+│           │       ├── customers.php
+│           │       └── users.php
 │           └── index.php
 ├── public/
 │   └── tfa1_bautista/
-│       ├── assets/                  # Logo and image files
-│       ├── css/                     # Stylesheets
-│       └── js/                      # Browser JavaScript
+│       └── assets/
+│           ├── css/                 # Stylesheets
+│           ├── img/                 # Logo and image files
+│           └── js/                  # Browser JavaScript
 ├── composer.json                    # PHP dependencies
 ├── env                              # Environment-file template
 ├── README.md
