@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Tasks for Today</title>
-    <link rel="stylesheet" href="<?= base_url('tsa1_bautista/css/style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('tsa1_bautista/assets/css/style.css') ?>">
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
         <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Open navigation menu">
-        <label class="menu-pill" for="menu-toggle"><img src="<?= base_url('tsa1_bautista/assets/KBlogo.png') ?>" alt="KB logo" width="45" height="45"><span>Ken</span></label>
+        <label class="menu-pill" for="menu-toggle"><img src="<?= base_url('tsa1_bautista/assets/img/KBlogo.png') ?>" alt="KB logo" width="45" height="45"><span>Ken</span></label>
         <nav class="menu-panel" aria-label="Main navigation">
             <a href="<?= base_url() ?>">Welcome</a>
             <a href="<?= base_url('tasks') ?>">Task List</a>
@@ -35,6 +35,6 @@
         </section>
     </main>
     <footer class="site-footer"><p>Tasks for Today Management System</p></footer>
-    <script src="<?= base_url('tsa1_bautista/js/script.js') ?>"></script>
+    <script src="<?= base_url('tsa1_bautista/assets/js/script.js') ?>"></script>
 </body>
 </html>
