@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Customer Accounts | Ken POS</title>
-    <link rel="stylesheet" href="<?= base_url('tfa2_bautista/css/style.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('tfa2_bautista/assets/css/style.css') ?>">
 </head>
 <body>
     <!-- Header -->
     <header class="site-header">
         <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Open navigation menu">
         <label class="menu-pill" for="menu-toggle">
-            <img src="<?= base_url('tfa2_bautista/assets/KBlogo.png') ?>" alt="KB logo" width="45" height="45">
+            <img src="<?= base_url('tfa2_bautista/assets/img/KBlogo.png') ?>" alt="KB logo" width="45" height="45">
             <span>Ken</span>
         </label>
 
@@ -73,6 +73,6 @@
         </section>
     </main>
 
-    <script src="<?= base_url('tfa2_bautista/js/script.js') ?>"></script>
+    <script src="<?= base_url('tfa2_bautista/assets/js/script.js') ?>"></script>
 </body>
 </html>
