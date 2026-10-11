@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title description">
+  <title id="title">Avatar placeholder</title>
+  <desc id="description">A neutral user silhouette inside a circle</desc>
+  <rect width="300" height="300" fill="#eeeeee"/>
+  <circle cx="150" cy="112" r="54" fill="#777777"/>
+  <path d="M58 270c8-66 43-101 92-101s84 35 92 101" fill="#777777"/>
+</svg>
