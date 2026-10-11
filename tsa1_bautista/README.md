@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/kan08306/Bautista">
-    <img src="./public/tsa1_bautista/assets/KBlogo.png" alt="KB Logo" width="130">
+    <img src="./public/tsa1_bautista/assets/img/KBlogo.png" alt="KB Logo" width="130">
   </a>
 
   <h1>TSA 1 — Tasks for Today Management System</h1>
@@ -50,20 +50,25 @@ tsa1_bautista/
 │   │   └── UserModel.php                # Users table Model
 │   ├── Views/
 │   │   └── tsa1_bautista/
-│   │       ├── pages/
-│   │       │   ├── about.php
-│   │       │   ├── profile.php
-│   │       │   └── tasks.php
+│   │       ├── assets/
+│   │       │   ├── css/
+│   │       │   ├── img/
+│   │       │   ├── js/
+│   │       │   └── pages/
+│   │       │       ├── about.php
+│   │       │       ├── profile.php
+│   │       │       └── tasks.php
 │   │       └── index.php                # Today's tasks page
 │   └── Database/
 │       └── tsa1_bautista.sql            # MySQL database export
 ├── public/
 │   └── tsa1_bautista/
-│       ├── assets/                      # KB logo
-│       ├── css/                         # Stylesheets
-│       └── js/                          # Browser JavaScript
+│       └── assets/
+│           ├── css/                     # Stylesheets
+│           ├── img/                     # KB logo
+│           └── js/                      # Browser JavaScript
 ├── composer.json                        # PHP dependencies
-├── .env                                 # Environment-file template
+├── env                                  # Environment-file template
 ├── README.md
 └── spark                                # CodeIgniter command-line tool
 ```
