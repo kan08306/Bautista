@@ -16,7 +16,7 @@ class Customers extends BaseController
                 'customers' => $customers
         ];
 
-        return view('tfa2_bautista/pages/customers', $customer_data);
+        return view('tfa2_bautista/assets/pages/customers', $customer_data);
         
     }
 }
