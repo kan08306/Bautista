@@ -14,6 +14,6 @@ class Customers extends BaseController
             ['full_name' => 'Ken Aquino', 'email' => 'ken.aquino@example.com', 'phone' => '0921-567-8901'],
         ];
 
-        return view('tfa1_bautista/pages/customers', ['customers' => $customers]);
+        return view('tfa1_bautista/assets/pages/customers', ['customers' => $customers]);
     }
 }
