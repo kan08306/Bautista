@@ -16,6 +16,6 @@ class Users extends BaseController
                 'users' => $users
         ];
 
-        return view('tfa2_bautista/pages/users', $user_data);
+        return view('tfa2_bautista/assets/pages/users', $user_data);
     }
 }
