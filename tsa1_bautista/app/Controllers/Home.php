@@ -11,16 +11,16 @@ class Home extends BaseController
 
     public function tasks(): string
     {
-        return view('tsa1_bautista/pages/tasks');
+        return view('tsa1_bautista/assets/pages/tasks');
     }
 
     public function profile(): string
     {
-        return view('tsa1_bautista/pages/profile');
+        return view('tsa1_bautista/assets/pages/profile');
     }
 
     public function about(): string
     {
-        return view('tsa1_bautista/pages/about');
+        return view('tsa1_bautista/assets/pages/about');
     }
 }
