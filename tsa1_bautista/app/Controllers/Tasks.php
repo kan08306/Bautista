@@ -32,6 +32,6 @@ class Tasks extends BaseController
                 ->findAll(),
         ];
 
-        return view('tsa1_bautista/pages/tasks', $data);
+        return view('tsa1_bautista/assets/pages/tasks', $data);
     }
 }
