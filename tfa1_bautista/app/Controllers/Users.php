@@ -14,6 +14,6 @@ class Users extends BaseController
             ['username' => 'staff.kena1', 'full_name' => 'Ken Aquino', 'role' => 'Staff'],
         ];
 
-        return view('tfa1_bautista/pages/users', ['users' => $users]);
+        return view('tfa1_bautista/assets/pages/users', ['users' => $users]);
     }
 }
