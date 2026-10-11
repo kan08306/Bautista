@@ -16,6 +16,6 @@ class Profile extends BaseController
                 ->first(),
         ];
 
-        return view('tsa1_bautista/pages/profile', $data);
+        return view('tsa1_bautista/assets/pages/profile', $data);
     }
 }
