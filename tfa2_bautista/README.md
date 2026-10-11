@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/kan08306/Bautista">
-    <img src="./public/tfa2_bautista/assets/KBlogo.png" alt="KB Logo" width="130">
+    <img src="./public/tfa2_bautista/assets/img/KBlogo.png" alt="KB Logo" width="130">
   </a>
 
   <h1>TFA 2 — From Arrays to a Real Database</h1>
@@ -50,15 +50,20 @@ tfa2_bautista/
 │   │   └── UserModel.php               # Users table Model
 │   └── Views/
 │       └── tfa2_bautista/
-│           ├── pages/
-│           │   ├── customers.php
-│           │   └── users.php
+│           ├── assets/
+│           │   ├── css/
+│           │   ├── img/
+│           │   ├── js/
+│           │   └── pages/
+│           │       ├── customers.php
+│           │       └── users.php
 │           └── index.php
 ├── public/
 │   └── tfa2_bautista/
-│       ├── assets/                      # Logo and image files
-│       ├── css/                         # Stylesheets
-│       └── js/                          # Browser JavaScript
+│       └── assets/
+│           ├── css/                     # Stylesheets
+│           ├── img/                     # Logo and image files
+│           └── js/                      # Browser JavaScript
 ├── composer.json                        # PHP dependencies
 ├── env                                  # Environment-file template
 ├── README.md
