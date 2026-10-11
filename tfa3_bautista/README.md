@@ -11,7 +11,7 @@
 **Student:** Ken Bautista  
 **Repository:** [Bautista](https://github.com/kan08306/Bautista)  
 **Activity folder:** [`tfa3_bautista`](https://github.com/kan08306/Bautista/tree/main/tfa3_bautista)  
-**Hosted site:** (https://tfa3-bautista.free.je/public/index.php)
+**Hosted site:** https://tfa3-bautista.free.je/public/index.php
 
 ## Features
 
