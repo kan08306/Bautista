@@ -15,7 +15,7 @@
 
 ## Repository purpose
 
-The projects in this repository document practical work using PHP and CodeIgniter. They focus on core web-development concepts such as routing, controllers, views, Models, database integration, reusable assets, and application structure.
+The projects in this repository document practical work using PHP and CodeIgniter. They focus on core web-development concepts such as routing, controllers, views, Models, database integration, form validation, file uploads, reusable assets, and application structure.
 
 ## Activities
 
@@ -23,6 +23,7 @@ The projects in this repository document practical work using PHP and CodeIgnite
 |---|---|---|---|---|
 | TFA 1 | `tfa1_bautista` | Basic POS application with Home, About, Customers, and Users pages | [Open TFA 1 README](./tfa1_bautista/README.md) | http://bautista-tc32.infinityfree.me/ |
 | TFA 2 | `tfa2_bautista` | Database-backed POS account pages using MySQL, Models, and Query Builder | [Open TFA 2 README](./tfa2_bautista/README.md) | https://tfa2-bautista-tc32.infinityfree.me/ |
+| TFA 3 | `tfa3_bautista` | Validated customer and user forms with database updates and optional avatar uploads | [Open TFA 3 README](./tfa3_bautista/README.md) | https://tfa3-bautista.free.je/public/index.php |
 | TSA 1 | `tsa1_bautista` | Task management application with date-filtered tasks, a complete task list, and a database-backed profile | [Open TSA 1 README](./tsa1_bautista/README.md) | https://bautista-tsa-tc32.ct.ws/ |
 
 ## Repository structure
@@ -33,6 +34,8 @@ Bautista/
 │   └── README.md        # TFA 1 setup, routes, and project details
 ├── tfa2_bautista/       # TFA 2 database-backed POS application
 │   └── README.md        # TFA 2 database setup, routes, and project details
+├── tfa3_bautista/       # TFA 3 validated forms and avatar upload application
+│   └── README.md        # TFA 3 setup, validation, routes, and database details
 ├── tsa1_bautista/       # TSA 1 database-backed task application
 │   └── README.md        # TSA 1 setup, routes, and project details
 └── README.md            # Repository overview and activity index
@@ -56,11 +59,11 @@ Every activity folder is independent. To run an activity, clone this repository 
 
 ```bash
 git clone https://github.com/kan08306/Bautista.git
-cd Bautista/tfa2_bautista
+cd Bautista/tfa3_bautista
 composer install
 ```
 
-The example above selects TFA 2. Use `tfa1_bautista` for TFA 1 or `tsa1_bautista` for TSA 1. Copy the provided environment template, configure its local `app.baseURL` and any activity-specific database settings, then either start Apache through XAMPP or run `php spark serve` from that activity folder.
+The example above selects TFA 3. Use `tfa1_bautista`, `tfa2_bautista`, `tfa3_bautista`, or `tsa1_bautista` for the corresponding activity. Copy the provided environment template, configure its local `app.baseURL` and any activity-specific database settings, then either start Apache through XAMPP or run `php spark serve` from that activity folder.
 
 See the activity README for the exact environment configuration, local URLs, available pages, and deployment notes.
 
