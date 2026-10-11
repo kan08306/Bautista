@@ -11,16 +11,16 @@ class Pages extends BaseController
 
     public function about()
     {
-        return view('tfa1_bautista/pages/about');
+        return view('tfa1_bautista/assets/pages/about');
     }
 
     public function users()
     {
-        return view('tfa1_bautista/pages/users');
+        return view('tfa1_bautista/assets/pages/users');
     }
 
     public function customers()
     {
-        return view('tfa1_bautista/pages/customers');
+        return view('tfa1_bautista/assets/pages/customers');
     }
 }
