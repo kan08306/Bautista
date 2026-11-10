@@ -216,7 +216,7 @@ The directory `public/uploads/avatars` must remain writable by PHP for avatar up
 | GET | Home | `/` | Public |
 | GET | Login | `/login` | Public |
 | POST | Authenticate | `/login` | Public |
-| POST | Logout | `/logout` | Public; CSRF-protected form |
+| POST | Logout | `/logout` | Public |
 | GET | Customer Accounts | `/customers` | Login required |
 | GET | New Customer | `/customers/new` | Login required |
 | POST | Create Customer | `/customers` | Login required |
