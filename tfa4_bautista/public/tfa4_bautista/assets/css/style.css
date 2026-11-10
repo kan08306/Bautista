@@ -160,6 +160,7 @@ input:focus-visible,
 }
 
 .menu-panel a,
+.logout-button,
 .theme-toggle {
     display: flex;
     align-items: center;
@@ -177,11 +178,18 @@ input:focus-visible,
 
 .menu-panel a:hover,
 .menu-panel a.active,
+.logout-button:hover,
 .theme-toggle:hover {
     border-color: var(--border-soft);
     background: var(--soft-hover);
 }
 
+.logout-form {
+    width: 100%;
+    margin: 0;
+}
+
+.logout-button,
 .theme-toggle {
     width: 100%;
 }
