@@ -25,7 +25,10 @@
                 <a class="active" href="<?= site_url('/') ?>" aria-current="page">Home</a>
                 <a href="<?= site_url('customers') ?>">Customers</a>
                 <a href="<?= site_url('users') ?>">Users</a>
-                <a href="<?= site_url('logout') ?>">Logout</a>
+                <form class="logout-form" method="post" action="<?= site_url('logout') ?>">
+                    <?= csrf_field() ?>
+                    <button class="logout-button" type="submit">Logout</button>
+                </form>
                 <p class="signed-in-user">Signed in as <strong><?= esc((string) session('username')) ?></strong></p>
             </div>
             <?php endif; ?>
