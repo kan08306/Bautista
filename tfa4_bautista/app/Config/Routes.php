@@ -8,7 +8,7 @@ $routes->get('/', 'Pages::home');
 
 $routes->get('login', 'Auth::login');
 $routes->post('login', 'Auth::authenticate');
-$routes->get('logout', 'Auth::logout');
+$routes->post('logout', 'Auth::logout');
 
 $routes->group('', ['filter' => 'auth'], static function (RouteCollection $routes): void {
     $routes->get('customers', 'Customers::index');
